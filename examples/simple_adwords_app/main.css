@@ -1,0 +1,94 @@
+.campaigns {
+    border: 1px solid #FFFFFF;
+    margin: 2px;
+}
+
+.appTitle {
+	font-family:tahoma,arial,verdana,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#15428B;
+	padding:5px 3px 4px 5px;
+	margin-left:8px;
+}
+
+.campaign-icon{background-image:url(ext/resources/images/google_24x24.png) !important;}
+.adgroup-icon{background-image:url(ext/resources/images/cubes.gif) !important;}
+.ads-icon{background-image:url(ext/resources/images/ads_24x24.png) !important;}
+.target-icon{background-image:url(ext/resources/images/target_24x24.png) !important;}
+.criteria-icon{background-image:url(ext/resources/images/criteria_icon.png) !important;}
+
+.x-tree-node div.campaigns-node{
+    background:#eee url(ext/resources/images/cmp-bg.gif) repeat-x !important;
+    margin-top:1px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ccc;
+    padding-top:2px;
+    padding-bottom:1px;
+	line-height: 18px;
+}
+.campaigns-node .x-tree-node-icon {
+    display:none;
+}
+
+.x-tree-node {
+	font:13px arial,tahoma,helvetica,sans-serif;
+}
+
+.x-tree-node-el {
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.x-tree-node-icon {
+    height:24px !important;
+	width:24px !important;
+}
+
+/* Apply class "x-toolbar-standardbutton" to buttons on a toolbar
+ * to make them appear with "normal" button styling, instead of toolbar button styling */
+.x-toolbar .x-toolbar-standardbutton .x-btn-tl { background-position: 0 0; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-tr { background-position: -3px 0; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-tc { background-position: 0 -6px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-ml { background-position: 0px -24px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-mr { background-position: -3px -24px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-mc { background-position: 0 -1096px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-bl { background-position: 0 -3px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-br { background-position: -3px -3px; }
+.x-toolbar .x-toolbar-standardbutton .x-btn-bc { background-position: 0 -15px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-tl{ background-position: -6px 0; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-tr { background-position: -9px 0; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-tc { background-position: 0 -9px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-ml { background-position: -6px -24px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-mr { background-position: -9px -24px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-mc { background-position: 0 -2168px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-bl { background-position: -6px -3px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-br { background-position: -9px -3px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-over .x-btn-bc { background-position: 0 -18px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-tl, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-tl, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-tl { background-position: -12px 0; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-tr, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-tr, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-tr { background-position: -15px 0; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-tc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-tc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-tc { background-position: 0 -12px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-ml, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-ml, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-ml { background-position: -12px -24px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-mr, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-mr, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-mr { background-position: -15px -24px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-mc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-mc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-mc { background-position: 0 -3240px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-bl, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-bl, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-bl { background-position: -12px -3px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-br, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-br, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-br { background-position: -15px -3px; }
+.x-toolbar .x-toolbar-standardbutton.x-btn-click .x-btn-bc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-menu-active .x-btn-bc, 
+.x-toolbar .x-toolbar-standardbutton.x-btn-pressed .x-btn-bc { background-position: 0 -21px; }
